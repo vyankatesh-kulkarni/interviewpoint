@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> Interview Preparation </title>
+   <link href="css/960_12_col.css" rel="stylesheet">
+   <link href="css/styles.css" rel="stylesheet">
+   <link href="css/blog_style.css" rel="stylesheet">
+   <script>
+   function sure(){
+    window.confirm("Are you sure want to submit your question ? ")
+   }   
+   </script>
+  </head>
+  <body>
+   <div class="container_12">
+    <header>
+       <div class="grid_8"> 
+	   <p> <a href="index.html"> home </a></p>
+       <h1> Interview Point</h1>
+       <p> For CS and IT  students </p>    
+       </div>
+       <div class="grid_4">   <img src="img/logo3.jpg"/>   </div>
+    </header> 
+    <div class="clear"> </div>
+    <hr>
+    <nav>
+     <div class="grid_3 menu_item"> <a href="blog.html"> BLOG </a>  </div>
+     <div class="grid_3 menu_item"> <a href="algo.html"> ALGORITHMS </a>    </div>
+     <div class="grid_3 menu_item"> <a href="data_strucure.html"> DATA STRUCTURE </a>  </div>
+     <div class="grid_3 menu_item"> <a href="os.html"> OPERATING SYSTEM </a>  </div>
+    </nav>
+    <div class="clear"> </div>
+	
+	
+	<div class="grid_12" style="font-size:24px;"> 
+	<table class="table" align="center"> 
+	<form action='register.py' method='POST' enctype='multipart/form-data'>
+        <tr>
+	        <td><label for='name'>Name: </label></td>
+			<td><input type='text' name='name' id='name' required></td> 
+        </tr>	
+		<tr>
+	        <td><label for='con'>Contact:</label></td>
+			<td><input type='number' name='contact' id='con' required></td>
+         </tr>
+		  <tr>
+	        <td><label for='mail'>Email:<label></td>
+			<td><input type='email' name='email' id='mail' required></td>
+         </tr>
+		 <tr>
+		   <td><label for='que'>Ask your question:<label></td>
+		   <td>
+		     <textarea  rows='5' cols='23' id="que"> </textarea>
+		   </td>
+		 </tr>
+		  <tr align="center" colspan=4>
+	         <td><input type='submit' value='submit' onclick="sure()"></td>
+         </tr>
+	</table>
+	</div>
+	
+	</form>
+	 <div class="clear"> </div>
+	 <footer>
+     <div class="grid_4">  <h3>contact us: </h3> 
+	  <p> Email:interviewpoint@ip.com</p> 
+	  <span> Add: block no.23, galaxy mall,<br>Parel west.</span>
+	  </div>
+	 
+	 <div class="grid_4"> <h3> follow us on: </h3> 
+       <ul type="none">
+	    <li> facebook </li>
+		<li> instagram </li>
+		<li>  twitter </li>
+	   </ul>
+    	 </div>
+     <div class="grid_4" style="margin-top:80px;"> 
+      <span>copyright &copy; 2019 All rights reserved </span><br>
+	 <span> created and designed by Vyankatesh kulkarni</span>
+ 	 </div>
+  </footer>
+ 
+  </div>
+  <script src="script.js">  </script>
+  </body>
+</html>
